@@ -1,0 +1,20 @@
+# J.A.R.V.I.S. Multi-Agent Orchestration System
+# Backend: FastAPI + WebSocket
+# Frontend: React + Vite
+
+[project]
+name = "jarvis-system"
+version = "1.0.0"
+
+[backend]
+framework = "fastapi"
+websocket = "websockets"
+llm = "openai"
+task_queue = "celery"
+broker = "redis"
+
+[frontend]
+framework = "react"
+build_tool = "vite"
+ui_library = "tailwindcss"
+animation = "framer-motion"
